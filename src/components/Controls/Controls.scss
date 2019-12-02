@@ -1,0 +1,55 @@
+@import "../../scss/variables";
+
+.controls {
+  display: flex;
+  margin: 12px 0;
+
+  &__button {
+    display: block;
+    padding: 14px;
+    margin: 0;
+    border: 0;
+    line-height: 1;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color ease 0.2s;
+    border-radius: 4px;
+    
+    @media($min-sm) {
+      padding: 24px;
+    }
+
+    svg {
+      height: 26px;
+      width: 26px;
+    }
+    
+    path {
+      fill: #004066;
+    }
+
+    &:hover {
+      background-color: #00a2ff;
+
+      path {
+        fill: #fff;
+      }
+    }
+  }
+
+  &__play {
+
+  }
+
+  &__pause {
+    
+  }
+
+  &__next {
+    
+  }
+
+  &__prev {
+    
+  }
+}
