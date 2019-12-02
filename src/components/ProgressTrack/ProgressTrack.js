@@ -54,7 +54,7 @@ const ProgressTrack = (props) => {
         setStatePlayer(false)
       }
     })
-  }, [])
+  }, [audio, setStatePlayer])
 
   useEffect(() => {
     if (track && track.url && audio) {

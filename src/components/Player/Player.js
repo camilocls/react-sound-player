@@ -8,7 +8,6 @@ const Player = (props) => {
   const [playList, setPlayList] = useState([])
   const [currentTrack, setCurrentTrack] = useState({})
   const [isPlaying, setIsPlaying] = useState(false)
-  const [audio] = useState(new Audio())
 
   const getTrackList = async () => {
     await fetch('../data.json', {

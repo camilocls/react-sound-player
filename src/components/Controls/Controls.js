@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import classNames from 'classnames'
 import './Controls.scss'
 import { ReactComponent as IconPrev } from '../../assets/icon-prev.svg'

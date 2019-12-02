@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import classNames from 'classnames'
 import './ArtWork.scss'
 import artworkDefault from '../../assets/artwork.jpg'

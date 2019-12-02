@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import classNames from 'classnames'
 import ProgressTrack from '../ProgressTrack/ProgressTrack'
 import './TrackInfo.scss'
