@@ -1,0 +1,42 @@
+@import "../../scss/variables";
+
+.player {
+  background-color: #fff;
+  box-shadow: 0 0 30px 1px rgba(black, 0.5);
+  width: 100%;
+  position: relative;
+  
+  @media($min-sm) {
+    margin: 0 80px;
+  }
+  
+  &__content {
+    background-color: #fff;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    
+    @media($min-sm) {
+      justify-content: flex-end;
+      padding: 0 30px;
+    }
+  }
+
+  &__artwork {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    display: none;
+    
+    @media($min-sm) {
+      left: 40px;
+      display: block;
+    }
+  }
+
+  &__controls {
+    
+  }
+}
